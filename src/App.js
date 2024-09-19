@@ -8,15 +8,15 @@ function App() {
   return (
     <div
       style={{
-        width: '100vw',  // Full width of the viewport
-        height: '100vh', // Full height of the viewport
-        display: 'flex', // Flexbox to center the container
-        justifyContent: 'center', // Horizontally center the main content
-        alignItems: 'center', // Vertically center the main content
+        width: '100vw',  
+        height: '100vh', 
+        display: 'flex',
+        justifyContent: 'center', 
+        alignItems: 'center', 
         backgroundColor: 'black',
       }}
     >
-      {/* Main Content Wrapper */}
+      
       <div
         style={{
           display: 'flex', // Use flexbox to align image and text side by side
@@ -27,7 +27,7 @@ function App() {
         }}
       >
         
-        {/* Left-aligned Image */}
+        
         <img
           style={{
             width: '100%',
@@ -37,27 +37,24 @@ function App() {
           alt="Intersect"
         />
 
-        {/* Text Content */}
-      
         <div
           style={{
-            textAlign: 'right', // Center align the text content
+            textAlign: 'right', 
             position: 'relative',
             width: '100%',
             marginTop:'30px',
           }}
         >
-          {/* Visible "50%" */}
           <div
             style={{
               color: 'white',
-              fontSize: '17px',  // Make it larger
+              fontSize: '17px',  
               fontWeight: '100',
               fontFamily: 'Chakra Petch',
               position: 'absolute',
-              top: '-30px', // Position it clearly above other content
-              right: '0px', // Align it to the right
-              zIndex: '15', // Ensure it's on top of other elements
+              top: '-30px', 
+              right: '0px', 
+              zIndex: '15',
             }}
           >
             50%
@@ -66,7 +63,7 @@ function App() {
           <div
             style={{
               color: 'white',
-              fontSize: '30px',  // Responsive font size
+              fontSize: '30px',  
               fontFamily: 'Chakra Petch',
               fontWeight: '700',
               wordWrap: 'break-word',
@@ -75,7 +72,6 @@ function App() {
             Dev Camp
           </div>
 
-          {/* Line Divider */}
             <div
             style={{
               width: '100%',
@@ -86,27 +82,25 @@ function App() {
             }}
           ></div>
 
-          {/* Loader Image */}
           <img
             style={{
-              position: 'absolute', // Ensure it's positioned correctly
-              top: '-60px', // Place it where you want it
+              position: 'absolute', 
+              top: '-60px', 
               left: '-15px',
               width: '100%',
-              height: '50%', // Make sure the height is set properly
-              zIndex: '10', // Ensure it's below the 50% text
+              height: '50%', 
+              zIndex: '10', 
             }}
             src={loader}
             alt="load"
           />
 
-
-            {/* Time and Clock Icon */}
+{/* clock */}
             <div
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center', // Center align
+                justifyContent: 'center', 
                 marginTop: '5px',
               }}
             >
@@ -118,7 +112,7 @@ function App() {
               <div
                 style={{
                   color: 'white',
-                  fontSize: '18px',  // Responsive font size
+                  fontSize: '18px', 
                   fontFamily: 'Chakra Petch',
                   fontWeight: '400',
                   wordWrap: 'break-word',
@@ -128,13 +122,12 @@ function App() {
               </div>
             </div>
 
-
-          {/* Date and Calendar Icon */}
+{/* calender */}
           <div
             style={{
               display: 'flex',
               alignItems: 'right',
-              justifyContent: 'right', // Align side by side items centrally
+              justifyContent: 'right',
             }}
           >
             <img
@@ -145,7 +138,7 @@ function App() {
             <div
               style={{
                 color: 'white',
-                fontSize: '18px',  // Responsive font size
+                fontSize: '18px', 
                 fontFamily: 'Chakra Petch',
                 fontWeight: '400',
                 wordWrap: 'break-word',
@@ -155,7 +148,7 @@ function App() {
             </div>
           </div>
 
-          {/* Know More Button */}
+          {/* Know More */}
           <div
             style={{
               background: '#D54A5A',
@@ -172,7 +165,7 @@ function App() {
             <div
               style={{
                 color: 'white',
-                fontSize: '20px',  // Responsive font size
+                fontSize: '20px',  
                 fontFamily: 'Chakra Petch',
                 fontWeight: '700',
                 wordWrap: 'break-word',
